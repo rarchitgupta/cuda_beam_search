@@ -1,2 +1,3 @@
 from .beam_search_cuda import cuda_update
 from .logit_filter_cuda import cuda_logit_filter
+from .topk_beam_expansion_cuda import cuda_topk_beam_expansion
